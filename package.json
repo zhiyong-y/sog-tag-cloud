@@ -1,11 +1,17 @@
 {
   "name": "sog-tag-cloud",
   "version": "0.1.0",
-  "private": true,
+  "keywords": ["vue标签云", "标签云", "Vue"],
+  "description": "vue实现标签云，可增加链接跳转，可自定义标签颜色、字体大小、透明度",
+  "private": false,
+  "main": "lib/sog-tag-cloud.umd.min.js",
+  "author": "yuzhiyong<15684187702@163.com>",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name sog-tag-cloud --dest lib src/plugins/index.js"
   },
   "dependencies": {
     "vue": "^2.6.11"
